@@ -1,0 +1,7 @@
+1. Buka aplikasi Arduino IDE
+2. Klick file->Preferences
+3. Copy link dibawah ini lalu paste ke Additional Boards Manager URLs:
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+4. Lalu Enter/OK
+5. langkah selanjutntnya Klick Tools -> Board -> Board Manager
+6. Kemudian ketik ESP8266 Community pilih lalu install

@@ -1,0 +1,1 @@
+Langkah yang harus dilakukan adalah mengopy semua library yang ada di folder library ke directory C:documents/arduino/libraries
