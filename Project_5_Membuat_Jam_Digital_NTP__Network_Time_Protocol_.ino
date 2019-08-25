@@ -9,8 +9,8 @@
 #define OLED_RESET LED_BUILTIN  //4
 Adafruit_SSD1306 display(OLED_RESET);
 
-const char* ssid = "citra.net";
-const char* password = "Dickybmz";
+const char* ssid = "xxxxxxxx";
+const char* password = "xxxxxxx";
 
 int ledPin = 13;
 
