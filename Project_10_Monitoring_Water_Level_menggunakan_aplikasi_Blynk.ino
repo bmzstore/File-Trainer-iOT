@@ -6,8 +6,8 @@
 
 char auth[] = "YdINrhT2bPV3-VInmTYIJOVYBIrgidXR";
 
-char ssid[] = "citra.net";
-char pass[] = "Dickybmz";
+char ssid[] = "xxxxxxxxx";
+char pass[] = "xxxxxxxxx";
 
 WidgetLCD lcd(V1);
 
