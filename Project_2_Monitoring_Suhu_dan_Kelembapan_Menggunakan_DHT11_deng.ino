@@ -5,6 +5,7 @@
 #include <DHT.h>
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
+//Koneksi LCD-> SCL Ke D1 dan SDA ke D2
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 #define DHTPIN 14     //D5
 #define DHTTYPE    DHT11     // DHT 11
