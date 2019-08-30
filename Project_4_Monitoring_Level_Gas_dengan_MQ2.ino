@@ -6,6 +6,7 @@
 #include <MQ2.h>
 #define OLED_RESET D5
 int pin = A0; //A0
+//Koneksi LCD -> SCL ke D1 dan SDA ke D2
 int lpg, co, smoke;
 MQ2 mq2(pin);
 Adafruit_SSD1306 display(OLED_RESET);
