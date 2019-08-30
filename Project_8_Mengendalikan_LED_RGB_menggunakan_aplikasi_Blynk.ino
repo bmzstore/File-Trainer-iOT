@@ -4,7 +4,7 @@
 #include <BlynkSimpleEsp8266.h>
 #include <SimpleTimer.h>
 #include <DHT.h>
-
+//LED RGB R=D7 G=D8 B=D6
 char auth[] = "YdINrhT2bPV3-VInmTYIJOVYBIrgidXR";// Token Trainer IOT
 
 char ssid[] = "xxxxxxxx"; // Nama Wifi
