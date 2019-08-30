@@ -1,11 +1,10 @@
 #include <ESP8266WiFi.h>
 #include <time.h>
-
 #include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
-
+//Koneksi LCD -> SCL ke D1 dan SDA ke D2
 #define OLED_RESET LED_BUILTIN  //4
 Adafruit_SSD1306 display(OLED_RESET);
 
