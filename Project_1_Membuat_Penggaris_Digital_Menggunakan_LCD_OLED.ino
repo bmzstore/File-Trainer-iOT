@@ -1,11 +1,11 @@
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
-#define TRIGGER_PIN  12
-#define ECHO_PIN     14
+#define TRIGGER_PIN  12 //D6
+#define ECHO_PIN     14 //D5
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
 #define SCREEN_HEIGHT 64 // OLED display height, in pixels
-// Declaration for an SSD1306 display connected to I2C (SDA, SCL pins)
+//Koneksi LCD-> SCL Ke D1 dan SDA ke D2
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 void setup() {
