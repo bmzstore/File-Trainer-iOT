@@ -8,6 +8,7 @@
 #define OLED_RESET D5
 Adafruit_SSD1306 display(OLED_RESET);
 #if (SSD1306_LCDHEIGHT != 64)
+//Koneksi LCD-> SCL Ke D1 dan SDA ke D2
 #error("Height incorrect, please fix Adafruit_SSD1306.h!");
 #endif
 void setup()   {
